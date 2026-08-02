@@ -21,8 +21,7 @@ st.sidebar.info("Connected Lyzr Orchestrator Agent: Live")
 if st.button("Run Multi-Agent Workflow"):
     st.info("Orchestrator Executing: Verifying facts, calculating intent, mapping persona, and synthesizing pitch...")
     
-    # Live Lyzr Agent Embed Display
-st.success("✅ Multi-Agent Workflow Completed Successfully!")
+    st.success("✅ Multi-Agent Workflow Completed Successfully!")
     
     st.markdown("### 📊 Generated Pitch & ABM Analysis")
     st.write(f"**Target Account:** {account_name}")
@@ -43,4 +42,5 @@ Would you be open to a 10-minute technical brief this week?
 
 Best regards,
 Sales Automation Agent""", language="text")
+
 st.sidebar.caption("Powered by Lyzr Studio & Streamlit")
